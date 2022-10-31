@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url(../imagens/background-trem.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,7 +46,7 @@ body{
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center; /*alinha horizontalmente por causa do flex direction column*/
+    align-items: center; 
     gap: 10px;
 }
 
@@ -64,6 +64,10 @@ body{
 .cartao .minhas-informacoes .cargo{
     font-size: 20px;
     color: #b8bbc5;
+}
+
+.descricao span{
+    color: rgb(231, 129, 146);
 }
 
 .cartao .conteudo{
@@ -144,6 +148,11 @@ body{
 
 .redes-sociais .curriculo{
     background-color: #06c185;
+
+}
+
+.redes-sociais .portifolio-iniciante{
+    background-color: #f5a0f1;
 
 }
 
